@@ -6,7 +6,7 @@ const UserList = () => {
 	const { users } = useContext(AppContext);
 	return (
 		<div>
-			<h3>Available Users</h3>
+			<h3>Available User List</h3>
 			{users.map(user => <User key={user.id} user={user} />)}
 		</div>
 	);
